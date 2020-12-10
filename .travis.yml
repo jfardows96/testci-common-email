@@ -2,4 +2,4 @@ jdk:
  -oraclejdk11
 language: java
 script: 
--"mvn clean package"
+-mvn clean install
