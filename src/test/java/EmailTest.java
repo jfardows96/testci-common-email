@@ -26,13 +26,6 @@ public class EmailTest {
 		 
 	 }
 	 
-	 @Test
-	 public void testAddBcc() throws Exception{
-		 
-		 
-		 email.addBcc(TEST_EMAILS);
-		 assertEquals(3, email.getBccAddresses().size());
-	 }
 	 
 	 @Test
 	public void testAddCc() throws Exception{
@@ -81,12 +74,7 @@ public class EmailTest {
 		
 		assertEquals(dtTest, email.getSentDate());
 	}
-	@Test 
-	public void testgetMailSession() throws Exception{
-		email.getMailSession();
-		assertEquals(0,email.getMailSession());
 	
-	}
 	@Test
 	public void testbuildMimeMessage() throws Exception{
 		
