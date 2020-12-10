@@ -11,7 +11,7 @@ import org.junit.Test;
 public class EmailTest {
 
 	
-	private static final String[] TEST_EMAILS = { "abbccc@.com", "a.b@c.org", "jjjjk@b.com"};
+	private static final String[] TEST_EMAILS = {"bbccc@.com", "a.b@c.org", "jjjjk@b.com"};
 	private static final String TEST_EMAILS2 =  "Jannatul@gmail.com";
         private static String header = "check";
 	private EmailConcrete email;
