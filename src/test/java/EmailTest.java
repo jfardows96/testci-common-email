@@ -85,7 +85,7 @@ public class EmailTest {
 	public void testgetMailSession() throws Exception{
 		email.getMailSession();
 		assertEquals(0,email.getMailSession());
-		
+	
 	}
 	@Test
 	public void testbuildMimeMessage() throws Exception{
